@@ -1,2 +1,2 @@
-# Create Database
+-- Create Database
 createdb mydb

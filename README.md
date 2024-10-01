@@ -8,5 +8,7 @@
 
 ## Instructions
 Restore .tar file `dvdrental.tar`<br>
-```pg_restore -U your_username -d your_database_name -1 /path/to/your/backup_file.tar
+```sh
+pg_restore -U your_username -d your_database_name -1 /path/to/your/backup_file.tar
+```
 

@@ -1,3 +1,3 @@
--- Create new Database
-CREATE DATABASE my_db;
+-- Create new Database 'dvdrental'
+CREATE DATABASE dvdrental;
 

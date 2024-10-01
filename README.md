@@ -7,6 +7,6 @@
 <li>Relationships</li>
 
 ## Instructions
-Restore .tar file `dvdrental.tar`
-`pg_restore -U your_username -d your_database_name -1 /path/to/your/backup_file.tar
-`
+Restore .tar file `dvdrental.tar`<br>
+```pg_restore -U your_username -d your_database_name -1 /path/to/your/backup_file.tar
+

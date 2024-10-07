@@ -1,2 +1,2 @@
 -- Count unique fields in film table
-SELECT DISTINCT * FROM film;
+SELECT COUNT(*) FROM (SELECT DISTICT * FROM film);

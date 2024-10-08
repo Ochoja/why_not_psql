@@ -1,9 +1,9 @@
 -- Create table
 CREATE TABLE users (
 id SERIAL PRIMARY KEY,
-first_name TEXT NOT NULL,
-last_name TEXT NOT NULL,
-email TEXT NOT NULL UNIQUE,
-password TEXT NOT NULL,
+first_name VARCHAR(64) NOT NULL,
+last_name VARCHAR(64) NOT NULL,
+email VARCHAR(64) NOT NULL UNIQUE,
+password VARCHAR(64) NOT NULL,
 dob TIME NOT NULL
 );
